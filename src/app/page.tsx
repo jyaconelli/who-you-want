@@ -107,7 +107,7 @@ export default function Home() {
                 <br />
                 Remember,{" "}
                 <span
-                  className="bg-black p-1 shadow-xl drop-shadow-2xl"
+                  className="bg-black p-1 shadow-xl drop-shadow-2xl  inline-block"
                   style={{
                     textShadow: "0 0 6px rgba(255,255,255, .5)",
                   }}
