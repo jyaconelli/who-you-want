@@ -31,7 +31,7 @@ export default function Home() {
         className="flex w-full min-h-screen saturate-200 bg-repeat flex-col items-center justify-center gap-12 p-24 bg-indigo-500"
       >
         <div className="px-4 bg-black py-8 max-md:p-2 border-white border-4 max-w-screen-sm ">
-          <h2 className="font-Gruppo text-3xl  max-md:text-1xl italic">
+          <h2 className="font-Gruppo text-3xl text-white max-md:text-1xl italic">
             do NoT FeAR
           </h2>
           <h1

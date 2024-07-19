@@ -52,7 +52,7 @@ export const ContentRow = ({
                     </div>
                   </div>
                   <div className="flex-[2] p-3" onClick={onClick}>
-                    <p className="font-Gruppo font-black text-lg">{text}</p>
+                    <p className="font-Gruppo font-black text-white text-lg">{text}</p>
                   </div>
                 </div>
               </div>
