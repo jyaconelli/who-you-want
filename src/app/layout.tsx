@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+
+import { Inter } from "next/font/google";
+import type { Metadata } from "next";
+import { MouseTrail } from "react-webgl-trails";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <>
+      <html lang="en">
+        <body className={inter.className}>
+          {children}
+          <MouseTrail rgb={[1, 0.3, 1]} />
+        </body>
+      </html>
+    </>
   );
 }
